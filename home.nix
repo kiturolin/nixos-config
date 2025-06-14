@@ -13,6 +13,7 @@
   };
 
   home.packages = with pkgs;[
+    just
     cherry-studio
     qq
     wechat-uos
@@ -21,6 +22,9 @@
     snipaste
 
   ];
+
+  # 使用neovim做默认编辑器
+  programs.neovim.defaultEditor = true;
 
   # git 相关配置
   programs.git = {
