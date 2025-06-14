@@ -1,6 +1,5 @@
 {
-  system.stateVersion = "25.11";
-  nixpkgs.hostPlatform = "x86_64-linux";
+  
   hardware.enableRedistributableFirmware = true;
 
   imports = [
@@ -10,6 +9,6 @@
     ./user.nix
     ./networking.nix
     ./disk.nix
-  ]
+  ];
 
 }

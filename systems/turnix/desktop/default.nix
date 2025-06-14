@@ -3,5 +3,5 @@
     ./locale.nix
     ./program.nix
     ./desktop.nix
-  ]
+  ];
 }
