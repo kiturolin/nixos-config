@@ -6,4 +6,10 @@
   services.blueman.enable = true;
   # 启用Pipewire的Pulse组件， 支持蓝牙设备声音输出
   services.pipewire.pulse.enable = true;
+
+  services.libinput.enable = true;
+  services.libinput.touchpad.tapping = true;
+  services.libinput.touchpad.scrollMethod = "twofinger";
+  services.libinput.touchpad.naturalScrolling = true;
+  
 }
