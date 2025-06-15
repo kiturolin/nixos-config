@@ -20,8 +20,23 @@
     kdePackages.okular
     libreoffice-qt6
     snipaste
-
+    obsidian
   ];
+
+  programs.ssh = {
+    enable = true;
+    matchBlocks = {
+      "epyc1" = {
+        hostname = "10.15.89.111";
+        user = "kiturolin";
+      };
+      "epyc2" = {
+        hostname = "10.15.89.112";
+        user = "kiturolin";
+      };
+    };
+
+  };
 
   # 使用neovim做默认编辑器
   programs.neovim.defaultEditor = true;
@@ -52,7 +67,6 @@
   programs.bash = {
     enable = true;
     enableCompletion = true;
-    # TODO 设置一些别名方便使用，你可以根据自己的需要进行增删
     shellAliases = {};
   };
 
