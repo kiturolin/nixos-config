@@ -12,6 +12,7 @@
         noto-fonts-cjk-sans    #思源黑体 无衬线
         noto-fonts-cjk-serif   #思源黑体 衬线
         noto-fonts-emoji
+        lxgw-wenkai
       ];
       fontconfig = {
         # 启用字体抗锯齿

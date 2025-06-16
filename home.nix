@@ -21,6 +21,7 @@
     libreoffice-qt6
     snipaste
     obsidian
+    direnv
   ];
 
   programs.ssh = {

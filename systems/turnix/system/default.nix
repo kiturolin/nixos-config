@@ -9,6 +9,7 @@
     ./user.nix
     ./networking.nix
     ./disk.nix
+    ./mccgdi
   ];
 
 }
